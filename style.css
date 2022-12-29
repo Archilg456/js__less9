@@ -1,0 +1,52 @@
+body {
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.post__info__box {
+    margin: 0 auto;
+    margin-top: 3.5%;
+    max-width: 100%;
+    width: 750px;
+    height: 250px;
+    background: #2C5364;
+}
+.post__info__box h4 {
+    font-size: 44px;
+    text-align: center;
+    color: aquamarine;
+} 
+.post__info__box h2 {
+    font-size: 25px;
+    padding-top: 10px;
+    color: azure;
+    text-align: center;
+}
+.fa-circle-xmark {
+    font-size: 42px;
+    color: red;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 18px;
+}
+.overlay {
+    position: fixed;
+    width: 45%;
+    height: 25%;
+    background: cadetblue;
+    margin-top: 10%;
+    margin-left: 27.5%;  
+    display: none;
+}
+.overlay.active {
+    display: block;
+}
+.overlay__content p {
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    color: beige;
+    margin-top: 4rem;
+}
